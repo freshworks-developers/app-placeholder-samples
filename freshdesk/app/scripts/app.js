@@ -1,3 +1,8 @@
+/**
+ * This script is not included in any of the HTML files or placeholders at the moment.
+ * This will soon be deprecated.
+ */
+
 const JOKE_ENDPOINT = 'https://official-joke-api.appspot.com/random_joke';
 
 document.onreadystatechange = whenInteractive;
