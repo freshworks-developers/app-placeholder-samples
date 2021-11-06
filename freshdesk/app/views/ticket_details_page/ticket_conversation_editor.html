@@ -1,8 +1,12 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://static.freshdev.io/fdk/2.0/assets/fresh_client.js"></script>
+    <title>Ticket Conversation Editor</title>
   </head>
-
   <body>
     <main>
       <picture>
@@ -13,20 +17,13 @@
       </picture>
     </main>
   </body>
-  <script>
-    document.onreadystatechange = whenInteractive;
-
-    function whenInteractive() {
-      if (document.readyState === 'interactive') {
-        return app.initialized().then(getClientAPI).catch(console.error);
-      }
-    }
-
-    function getClientAPI(_client) {
-      let client = _client;
-      client.events.on('app.activated', function log() {
-        return console.log(`ticket_conversation_editor: app is activated 🥁`);
+  <script defer>
+    (async function init() {
+      var client;
+      client = await app.initialized();
+      client.events.on('app.activated', () => {
+        console.info(`ticket_conversation_editor:  app is activated 🥁`);
       });
-    }
+    })();
   </script>
 </html>
