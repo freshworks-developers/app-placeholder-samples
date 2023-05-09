@@ -1,5 +1,5 @@
 {
-  "platform-version": "2.0",
+  "platform-version": "2.3",
   "product": {
     "freshservice": {
       "location": {
@@ -53,5 +53,9 @@
         }
       }
     }
+  },
+  "engines": {
+    "node": "18.15.0",
+    "fdk": "9.0.0"
   }
 }
