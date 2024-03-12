@@ -1,0 +1,148 @@
+{
+  "platform-version": "3.0",
+  "modules": {
+    "common": {
+      "location": {
+        "full_page_app": {
+          "url": "views/global_sidebar/fullpage.html",
+          "icon": "styles/images/aeroplane.svg"
+        },
+        "cti_global_sidebar": {
+          "url": "views/global_sidebar/cti_global_sidebar.html",
+          "icon": "styles/images/aeroplane.svg"
+        }
+      }
+    },
+    "support_ticket": {
+      "location": {
+        "ticket_sidebar": {
+          "url": "views/ticket_details_page/ticket_sidebar.html",
+          "icon": "styles/images/helicopter.svg"
+        },
+        "ticket_requester_info": {
+          "url": "views/new_ticket_page/new_ticket_requester_info.html",
+          "icon": "styles/images/aeroplane.svg"
+        },
+        "ticket_top_navigation": {
+          "url": "views/ticket_details_page/ticket_top_navigation.html",
+          "icon": "styles/images/aeroplane.svg"
+        },
+        "ticket_attachment": {
+          "url": "views/ticket_details_page/ticket_attachment.html",
+          "icon": "styles/images/aeroplane.svg"
+        },
+        "ticket_conversation_editor": {
+          "url": "views/ticket_details_page/ticket_conversation_editor.html",
+          "icon": "styles/images/aeroplane.svg"
+        },
+        "ticket_background": {
+          "url": "views/ticket_details_page/ticket_background.html"
+        },
+        "time_entry_background": {
+          "url": "views/ticket_details_page/time_entry_background.html"
+        }
+      }
+    },
+    "support_email":{
+      "location":{
+        "new_email_requester_info": {
+          "url": "views/new_email_page/new_email_requester_info.html",
+          "icon": "styles/images/aeroplane.svg"
+        },
+        "new_email_background": {
+          "url": "views/new_email_page/new_email_background.html",
+          "icon": "styles/images/aeroplane.svg"
+        }
+      }
+    },
+    "support_contact":{
+      "location":{
+        "contact_sidebar": {
+          "url": "views/contact_details_page/contact_sidebar.html",
+          "icon": "styles/images/aeroplane.svg"
+        },
+        "contact_background": {
+          "url": "views/contact_details_page/contact_background.html",
+          "icon": "styles/images/aeroplane.svg"
+        },
+        "contact_list_background": {
+          "url": "views/contact_list_page/contact_list_background.html"
+        }
+      }
+    },
+    "support_company":{
+      "location":{
+        "company_background": {
+          "url": "views/company_details_page/company_background.html"
+        },
+        "company_list_background": {
+          "url": "views/company_list_page/company_list_background.html"
+        }
+      }
+    },
+    "service_ticket":{
+      "location": {
+        "ticket_sidebar": {
+          "url": "views/ticket_details_page/ticket_sidebar.html",
+          "icon": "styles/images/helicopter.svg"
+        },
+        "ticket_requester_info": {
+          "url": "views/ticket_details_page/ticket_requester_info.html",
+          "icon": "styles/images/aeroplane.svg"
+        },
+        "ticket_top_navigation": {
+          "url": "views/ticket_details_page/ticket_top_navigation.html",
+          "icon": "styles/images/aeroplane.svg"
+        },
+        "ticket_background": {
+          "url": "views/ticket_details_page/ticket_background.html"
+        },
+        "new_ticket_sidebar": {
+          "url": "views/new_ticket_page/new_ticket_sidebar.html",
+          "icon": "styles/images/aeroplane.svg"
+        },
+        "new_ticket_background": {
+          "url": "views/new_ticket_page/new_ticket_background.html"
+        }
+      }
+    },
+    "service_asset": {
+      "location": {
+        "asset_sidebar": {
+          "url": "views/asset_details_page/asset_sidebar.html",
+          "icon": "styles/images/aeroplane.svg"
+        }
+      }
+    },
+    "service_change": {
+      "location": {
+        "change_sidebar": {
+          "url": "views/change_details_page/change_sidebar.html",
+          "icon": "styles/images/helicopter.svg"
+        },
+        "change_background": {
+          "url": "views/change_details_page/change_background.html"
+        },
+        "new_change_sidebar": {
+          "url": "views/new_change_page/new_change_sidebar.html",
+          "icon": "styles/images/aeroplane.svg"
+        },
+        "new_change_background": {
+          "url": "views/new_change_page/new_change_background.html"
+        }
+      }
+    },
+    "service_user": {
+      "location": {
+        "contact_sidebar": {
+          "url": "views/contact_details_page/contact_sidebar.html",
+          "icon": "styles/images/aeroplane.svg"
+        }
+      }
+    }
+  },
+  "engines": {
+    "node": "18.13.0",
+    "fdk": "9.0.1"
+  }
+}
