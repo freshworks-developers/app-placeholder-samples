@@ -139,6 +139,30 @@
           "icon": "styles/images/aeroplane.svg"
         }
       }
+    },
+    "caller_conversation": {
+      "location": {
+        "conversation_card": {
+          "url": "views/caller_conversation/conversation_card.html",
+          "icon": "styles/images/aeroplane.svg"
+        },
+        "widget_conversation_card": {
+          "url": "views/caller_conversation/widget_conversation_card.html",
+          "icon": "styles/images/aeroplane.svg"
+        }
+      }
+    },
+    "notification": {
+      "location": {
+        "notification_card": {
+          "url": "views/notification/notification_card.html",
+          "icon": "styles/images/aeroplane.svg"
+        },
+        "widget_notification_card": {
+          "url": "views/notification/widget_notification_card.html",
+          "icon": "styles/images/aeroplane.svg"
+        }
+      }
     }
   },
   "engines": {

@@ -16,5 +16,9 @@ This samples repository consists of all examples of placeholder apps that can be
 | `service_asset` | Freshservice | `asset_sidebar` |
 | `service_change` | Freshservice | `change_sidebar` `change_background` `new_change_sidebar` `new_change_background` |
 | `service_user` | Freshservice | `contact_sidebar` |
+| `caller_conversation` | Freshcaller Web UI| `conversation_card` |
+| `caller_conversation` | Freshcaller Widget | `widget_conversation_card` |
+| `notification` | Freshcaller Web UI| `notification_card` |
+| `notification` | Freshcaller Widget | `widget_notification_card` |
 
-Learn more about [placeholders](https://developers-dev.freshworks.com/docs/app-sdk/v3.0/common/front-end-apps/placeholders/) and explore for different modules.
+Learn more about [placeholders](https://developers.freshworks.com/docs/app-sdk/v3.0/common/front-end-apps/placeholders/) and explore for different modules.
