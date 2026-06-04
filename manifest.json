@@ -36,10 +36,12 @@
           "icon": "styles/images/aeroplane.svg"
         },
         "ticket_background": {
-          "url": "views/ticket_details_page/ticket_background.html"
+          "url": "views/ticket_details_page/ticket_background.html",
+          "icon": "styles/images/aeroplane.svg"
         },
         "time_entry_background": {
-          "url": "views/ticket_details_page/time_entry_background.html"
+          "url": "views/ticket_details_page/time_entry_background.html",
+          "icon": "styles/images/aeroplane.svg"
         }
       }
     },
@@ -66,17 +68,20 @@
           "icon": "styles/images/aeroplane.svg"
         },
         "contact_list_background": {
-          "url": "views/contact_list_page/contact_list_background.html"
+          "url": "views/contact_list_page/contact_list_background.html",
+          "icon": "styles/images/aeroplane.svg"
         }
       }
     },
     "support_company":{
       "location":{
         "company_background": {
-          "url": "views/company_details_page/company_background.html"
+          "url": "views/company_details_page/company_background.html",
+          "icon": "styles/images/aeroplane.svg"
         },
         "company_list_background": {
-          "url": "views/company_list_page/company_list_background.html"
+          "url": "views/company_list_page/company_list_background.html",
+          "icon": "styles/images/aeroplane.svg"
         }
       }
     },
@@ -95,14 +100,16 @@
           "icon": "styles/images/aeroplane.svg"
         },
         "ticket_background": {
-          "url": "views/ticket_details_page/ticket_background.html"
+          "url": "views/ticket_details_page/ticket_background.html",
+          "icon": "styles/images/aeroplane.svg"
         },
         "new_ticket_sidebar": {
           "url": "views/new_ticket_page/new_ticket_sidebar.html",
           "icon": "styles/images/aeroplane.svg"
         },
         "new_ticket_background": {
-          "url": "views/new_ticket_page/new_ticket_background.html"
+          "url": "views/new_ticket_page/new_ticket_background.html",
+          "icon": "styles/images/aeroplane.svg"
         }
       }
     },
@@ -121,14 +128,16 @@
           "icon": "styles/images/helicopter.svg"
         },
         "change_background": {
-          "url": "views/change_details_page/change_background.html"
+          "url": "views/change_details_page/change_background.html",
+          "icon": "styles/images/aeroplane.svg"
         },
         "new_change_sidebar": {
           "url": "views/new_change_page/new_change_sidebar.html",
           "icon": "styles/images/aeroplane.svg"
         },
         "new_change_background": {
-          "url": "views/new_change_page/new_change_background.html"
+          "url": "views/new_change_page/new_change_background.html",
+          "icon": "styles/images/aeroplane.svg"
         }
       }
     },
@@ -166,7 +175,7 @@
     }
   },
   "engines": {
-    "node": "18.13.0",
-    "fdk": "9.1.0"
+    "node": "24.11.0",
+    "fdk": "10.1.2"
   }
 }
