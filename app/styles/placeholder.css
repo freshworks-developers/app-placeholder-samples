@@ -1,0 +1,84 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 8px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+/* Full-page app — fill viewport width, no horizontal overflow */
+body.full-page {
+  width: 100%;
+  min-width: 0;
+  max-width: 100vw;
+  min-height: 100vh;
+  padding: clamp(8px, 2vw, 24px);
+  overflow-x: hidden;
+}
+
+.full-page__main {
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+  margin: 0 auto;
+}
+
+.placeholder {
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 120px;
+  padding: 16px 12px;
+  border: 2px dashed #2c5cc5;
+  border-radius: 8px;
+  background: linear-gradient(135deg, #e5f2fd 0%, #f0f3f5 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  text-align: center;
+}
+
+.placeholder--wide {
+  min-height: 200px;
+}
+
+.placeholder--tall {
+  min-height: 320px;
+}
+
+.placeholder--full {
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+  min-height: min(480px, calc(100vh - 32px));
+  height: auto;
+}
+
+@media (min-width: 768px) {
+  .placeholder--full {
+    min-height: calc(100vh - 48px);
+  }
+}
+
+.placeholder__label {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 600;
+  color: #183247;
+  word-break: break-word;
+}
+
+.placeholder__hint {
+  margin: 0;
+  font-size: 11px;
+  color: #475867;
+}
